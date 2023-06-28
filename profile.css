@@ -1,7 +1,4 @@
-body{
-    /* display:flex; */
-    /* display:inline-block; */
-}
+
 #info{
     display:inline-block;
 }
@@ -62,72 +59,9 @@ body{
     text-align:center;
     margin-top:3%;
 }
-#animate{
-    position:absolute;
-    right:5%;
-    top:15%;
-    height:300px;
-    width:300px;
-    transform-style:preserve-3d;
-    animation:box 10s linear infinite
-}
-@keyframes box{
-    0%{
-        transform:rotatex(-30deg)rotatey(0deg)
-    }
-    100%{
-        transform:rotatex(-30deg)rotatey(360deg)
-    }
-}
-#animate div{
-    position:absolute;
-    right:0%;
-    top:0%;
-    height:300px;
-    width:300px;
-    transform-style:preserve-3d;
-}
-#animate div span{
-    position:absolute;
-    right:0%;
-    top:0%;
-    height:300px;
-    width:300px;
-    transform-style:preserve-3d;
-    background:linear-gradient(black,green);
-    transform:rotatey(calc(90deg * var(--i)))translateZ(150px);
-}
-.top{
-    position:absolute;
-    right:0%;
-    top:0%;
-    height:100%;
-    width:100%;
-    background-color:black;
-    transform:rotatex(90deg)translateZ(150px);
-}
-.top::before{
-    content:'';
-    position:absolute;
-    height:300px;
-    width:300px;
-    background-color:green;
-    transform:translateZ(-380px);
-    filter:blur(20px);
-    border-radius:50%;
-    box-shadow:0px 0px 120px rgb(161, 211, 161)
-    ,0px 0px 200px rgb(161, 211, 164),
-    0px 0px 300px rgb(161, 211, 168),
-    0px 0px 400px rgb(161, 211, 171),
-    0px 0px 500px rgb(161, 211, 175);
-}
 .boximg{
     height:300px;
     width:300px;
-}
-.lion{
-    width:300px;
-    height:300px;
 }
 .info{
   /* border:5px solid red; */
@@ -136,7 +70,6 @@ body{
 #project{
     height:600px;
     margin-top:2%;
-
 }
 
 #project h2{
