@@ -236,6 +236,13 @@ footer{
         margin-left: 0%;
     }
 }
+@media screen and (max-width:1215px){
+    .content {
+        width: 739px;
+        margin-top: 39px;
+        margin-bottom: 5%;
+    }
+}
 @media screen and (max-width:1200px){
     .content {
         width: 800px;
